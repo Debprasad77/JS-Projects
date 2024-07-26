@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./cong.css" /> -->
+
+  </head>
+  <body>
+    <p id="msg"></p>
+    <!-- Congratualtion Effects -->
+    <!-- <div id="effect" class="js-container container" style="top:0px !important;"></div> -->
+
+    <div class="container">
+      <div class="row">
+        <div onclick="clickHandle(this)" id="0" class="col"></div>
+        <div onclick="clickHandle(this)" id="1" class="col"></div>
+        <div onclick="clickHandle(this)" id="2" class="col"></div>
+      </div>
+
+      <div class="row">
+        <div onclick="clickHandle(this)" id="3" class="col"></div>
+        <div onclick="clickHandle(this)" id="4" class="col"></div>
+        <div onclick="clickHandle(this)" id="5" class="col"></div>
+      </div>
+
+      <div class="row">
+        <div onclick="clickHandle(this)" id="6" class="col"></div>
+        <div onclick="clickHandle(this)" id="7" class="col"></div>
+        <div onclick="clickHandle(this)" id="8" class="col"></div>
+      </div>
+
+      <button id="r-btn" class="btn">Reset Game</button>
+    </div>
+
+    <!-- <script src="./effect.js"></script> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
