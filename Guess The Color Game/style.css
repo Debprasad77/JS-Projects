@@ -1,0 +1,29 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col-code{
+text-align: center;
+}
+.sc{
+    text-align: center;
+    }
+
+#options-container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+
+}
+#options-container > div{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+#options-container > div:hover{
+    scale: 1.2;
+    transition: 1.2s;
+}
